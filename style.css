@@ -7,13 +7,23 @@ background: -o-linear-gradient(left, rgba(128,45,65,1) 0%, rgba(106,37,53,1) 44%
 background: -ms-linear-gradient(left, rgba(128,45,65,1) 0%, rgba(106,37,53,1) 44%, rgba(80,27,40,1) 100%);
 background: linear-gradient(to right, rgba(128,45,65,1) 0%, rgba(106,37,53,1) 44%, rgba(80,27,40,1) 100%);
 filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#802d41', endColorstr='#501b28', GradientType=1 );
-background-image: url("https://en.wikipedia.org/wiki/Cat#/media/File:Cat_poster_1.jpg");
+
 }
 
 .PageTitle{
+	font-family: Arial Black;
 	font-size: 50px;
-	color: Blue;
+	color: LimeGreen;
 	position: center;
-	background-image: url("https://en.wikipedia.org/wiki/Cat#/media/File:Cat_poster_1.jpg");
 	
+}
+.CatIdentifier{
+	font-size: 35;
+	
+}
+.sideBar{
+	justify-content: center;
+	font-family: helvetica;
+	float: right;
+	font-size: 40px;
 }
