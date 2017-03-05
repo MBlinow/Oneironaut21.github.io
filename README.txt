@@ -1,1 +1,1 @@
-This is my first website.  I hope to a nice looking main page and have some varied projects connected to it.
+This is my first website.  I hope to have a nice looking main page and some varied projects connected to it.
