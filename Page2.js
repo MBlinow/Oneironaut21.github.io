@@ -1,18 +1,20 @@
+//Variables
+	money=0.00;
+
 $(document).ready(function(){
 	
-		//$('.pageName').hide();
-		var money=0;
+
 		moneyPerClick=1;
-		$('.money').click(function(){
-			//tick();
-			money++;
-			$('.money').text(money);
+		$('.money').click(function(){;
+			
+			//money=tick();
 		});
-	
+		setInterval('tick()', 1000);
 });
 
-//function tick(){
-//	money+=moneyPerClick;
-//	$('.money').text(money;)
+function tick(){
+	//$('.pageName').append('hi');
+	money+=0.1;
+	$('.money').text('$'+money.toFixed(2));
 
-//}
+};
