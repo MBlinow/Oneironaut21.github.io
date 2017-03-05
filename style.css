@@ -26,4 +26,5 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#802d41', end
 	font-family: helvetica;
 	float: right;
 	font-size: 40px;
+	white-space: nowrap;
 }
