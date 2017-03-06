@@ -1,19 +1,40 @@
 *{
- background: rgba(128,45,65,1);
-background: -moz-linear-gradient(left, rgba(128,45,65,1) 0%, rgba(106,37,53,1) 44%, rgba(80,27,40,1) 100%);
-background: -webkit-gradient(left top, right top, color-stop(0%, rgba(128,45,65,1)), color-stop(44%, rgba(106,37,53,1)), color-stop(100%, rgba(80,27,40,1)));
-background: -webkit-linear-gradient(left, rgba(128,45,65,1) 0%, rgba(106,37,53,1) 44%, rgba(80,27,40,1) 100%);
-background: -o-linear-gradient(left, rgba(128,45,65,1) 0%, rgba(106,37,53,1) 44%, rgba(80,27,40,1) 100%);
-background: -ms-linear-gradient(left, rgba(128,45,65,1) 0%, rgba(106,37,53,1) 44%, rgba(80,27,40,1) 100%);
-background: linear-gradient(to right, rgba(128,45,65,1) 0%, rgba(106,37,53,1) 44%, rgba(80,27,40,1) 100%);
-filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#802d41', endColorstr='#501b28', GradientType=1 );
-
+margin: 0;
+padding:0;
 }
+/*
+Color Scheme
+#70502C Tuscan Brown
+#D4D0C6	Pastel Gray
+#F7F5F6 White Smoke
+#8FA56B	Aparagus
+#1E1812 Licorice
 
+
+https://coolors.co/70502c-f4efe3-f7f5f6-8fa56b-1e1812
+
+
+*/
+body{
+	background-color: #70502C;
+	
+}
+p{
+	color: #D4D0C6;
+	
+}
+.colorCodes{
+	border-style: solid;
+	max-width: 20vw;
+	font-size: 30px;
+}
+p.colorCodes{
+	
+}
 .PageTitle{
 	font-family: Arial Black;
 	font-size: 50px;
-	color: LimeGreen;
+	color: #D4D0C6;
 	position: center;
 	
 }
@@ -22,9 +43,35 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#802d41', end
 	
 }
 .sideBar{
+	position: absolute;
+	top: 0;
+	right: 0;
 	justify-content: center;
 	font-family: helvetica;
 	float: right;
-	font-size: 40px;
+	font-size: 20px;
 	white-space: nowrap;
+	color: #D4D0C6;
+	border-style: solid;
+	border-right: hidden;
+	border-top: hidden;
+	max-height: 80vh;
+	white-space: pre-wrap;
+	max-width: 20%;
+	overflow-y: scroll;
+	padding: 5px;
+	
 }
+.bottomBar{
+	position: absolute;
+	float: bottom-left;
+	bottom: 0;
+	border-top: solid;
+	border-color: #1E1812;
+	background-color: #8FA56B;
+	width: 100vw;
+	overflow-x: hidden;
+	min-height: 8vh;
+	
+}
+
