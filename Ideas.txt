@@ -1,0 +1,6 @@
+Ideas:
+
+-Search bar where user can enter amazon search query and get returned info on the first result.
+-Page to show some of the python solutions from hackerrank.  Looks like I would need a server to run any python code.
+-Solve various items in-page with JavaScript.  Djikstra's algorithm looks like an interesting candidate.
+-Experiments in web page scraping to gather data from an external site and display the data locally.  Something like Steam price data maybe.

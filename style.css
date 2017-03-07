@@ -17,7 +17,20 @@ https://coolors.co/70502c-f4efe3-f7f5f6-8fa56b-1e1812
 */
 body{
 	background-color: #70502C;
-	
+	overflow-y: scroll;
+}
+::-webkit-scrollbar {
+    width: 12px;
+}
+ 
+::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3); 
+    border-radius: 10px;
+}
+ 
+::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.5); 
 }
 p{
 	color: #D4D0C6;
