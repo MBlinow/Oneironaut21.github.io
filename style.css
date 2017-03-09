@@ -55,6 +55,15 @@ p.colorCodes{
 	font-size: 35;
 	
 }
+#sideBarTab{
+	border-style: solid;
+	position: element(#sideBar);
+	float: right;
+	left: 100px;
+	width: 60px;
+	transform: rotate(90deg);
+	
+}
 .sideBar{
 	position: absolute;
 	top: 0;

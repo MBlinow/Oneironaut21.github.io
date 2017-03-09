@@ -1,13 +1,50 @@
 .pageName{
 	font-size: 50px;
-	text-aligh: justify;
+	text-align: justify;
 	
 	
 	
 }
 
+/*
+Colors:
+1098F7 Dodger Blue
+000000 REGISTRATION BLACK
+#FFFFFF WHITE
+B89E97 TUSCANY
+DECCCC DUST STORM
+
+https://coolors.co/000000-1098f7-ffffff-b89e97-decccc
+*/
+body{
+	text-align: center;
+	background-color: grey;
+}
+.leftColumn{
+	float: left;
+	display: inline-block;
+	
+}
+.centralColumn{
+	display: inline-block;
+	background-color: #1098F7;
+	text-align: center;
+	height: 99vh;
+	width: 20vw;
+	-webkit-user-select: none; /* Chrome/Safari */        
+	-moz-user-select: none; /* Firefox */
+	-ms-user-select: none; /* IE10+ */
+	
+}
+#shop{
+		background-color: #DECCCC;
+	
+}
 .money{
 	border-style: solid;
-	background-color: cyan;
-	width: 10%
+	background-color: #B89E97;
+	width: auto;
+	-webkit-user-select: none; /* Chrome/Safari */        
+	-moz-user-select: none; /* Firefox */
+	-ms-user-select: none; /* IE10+ */
 }
