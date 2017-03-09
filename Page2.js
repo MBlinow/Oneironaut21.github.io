@@ -54,7 +54,7 @@ function moneyClick(){
 		
 		
 function buyBuilding1(){
-	if(money>building1Cost){
+	if(money>=building1Cost){
 		money-=building1Cost;
 		building1Owned+=1;
 		building1Cost=building1Cost*building1Owned;
@@ -67,7 +67,7 @@ function buyBuilding1(){
 }
 		
 function buyBuilding2(){
-	if(money>building2Cost){
+	if(money>=building2Cost){
 		money-=building2Cost;
 		building2Owned+=1;
 		building2Cost=building2Cost*building2Owned;
